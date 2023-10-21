@@ -1,0 +1,101 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* Logo styles */
+.logo img {
+
+    width: 200px;
+    margin-right: 20px;
+
+}
+
+/* Navigation links */
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+
+    font-size: 16px;
+}
+
+/* User icons */
+.user-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* Media query for screens with a maximum width of 1024px */
+@media (max-width: 1024px) {
+    .logo img {
+        width: 150px;
+
+        margin-right: 10px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+
+    }
+
+    .user-icons a {
+        font-size: 16px;
+
+    }
+}
+
+/* Media query for screens with a maximum width of 756px */
+@media (max-width: 756px) {
+    .logo img {
+        width: 100px;
+
+        margin-right: 5px;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+
+    }
+
+    .user-icons a {
+        font-size: 14px;
+
+    }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 657px) {
+    .logo img {
+        width: 80px;
+        margin-right: 2px;
+    }
+
+    .nav-links a {
+        font-size: 10px;
+    }
+
+    .user-icons a {
+        font-size: 12px;
+    }
+
+
+    .navbar {
+        min-width: 240px;
+
+        padding: 10px 2px;
+    }
+}

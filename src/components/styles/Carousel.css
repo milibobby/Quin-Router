@@ -1,0 +1,9 @@
+#myCarousel {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.carousel-image {
+    max-width: 100%;
+    height: auto;
+}
